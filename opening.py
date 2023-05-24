@@ -25,7 +25,3 @@ class opening(Scene):
         self.play(Write(equation2))
         self.play(DrawBorderThenFill(axes2), Write(axis2_labels))
         self.play(Create(graph2))
-
-
-
-        
